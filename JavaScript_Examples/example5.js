@@ -4,6 +4,11 @@ function callMe() {
 };
 
 callMe();
+callMe();
+callMe();
+callMe();
+callMe();
+callMe();
 
 
 

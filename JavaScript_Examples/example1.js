@@ -1,2 +1,7 @@
 
-alert("hello, world!");
+
+var message = "hello acadia!";
+
+alert(message);
+
+

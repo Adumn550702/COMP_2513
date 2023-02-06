@@ -3,6 +3,7 @@
 
 var a = 2;
 
+
 // Comparison Operators​
 
 if (a <= 2) {
@@ -29,7 +30,7 @@ if (a == 10 || a == 0) {
 
 // Conditional Operators​ (ternary)
 
-var b = (a == 2? true : fasle);
+var b = (a == 2? true : false);
 
 alert(b);
 
