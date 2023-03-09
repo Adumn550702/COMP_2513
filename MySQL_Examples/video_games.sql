@@ -1,9 +1,9 @@
 
 /*create database if it doesn't already exist*/
-CREATE DATABASE IF NOT EXISTS `video_games`;
+CREATE DATABASE IF NOT EXISTS `video_game`;
 
 /*change into db context*/
-USE `video_games`;
+USE `video_game`;
 
 CREATE USER 'videogame_user'@'localhost' IDENTIFIED BY 'passw0rd';
 
@@ -796,7 +796,7 @@ INSERT INTO `video_game` (`game_name`, `genre_name`, `release_year`, `publisher_
 ('Hitman: HD Trilogy', 'Action', '2013', 'Square Enix'),
 ('Hokuto no Ken: Hokuto Shinken Denshousha no Michi', 'Action', '2008', 'Spike'),
 ('Hoppechan: Minna de Odekake! Waku Waku Hoppe Land!!', 'Action', '2014', 'Nippon Columbia');
-INSERT INTO `video_games` (`game_name`, `genre_name`, `release_year`, `publisher_name`) VALUES
+INSERT INTO `video_game` (`game_name`, `genre_name`, `release_year`, `publisher_name`) VALUES
 ('Hoppechan: Tsukutte! Asonde! Punipuni Town!!', 'Action', '2013', 'Nippon Columbia'),
 ('Horse Life 4: My Horse, My Friend, My Champion', 'Action', '2015', 'Unknown'),
 ('Hot \'n\' Cold', 'Action', '2009', 'Majesco Entertainment'),
@@ -1555,7 +1555,7 @@ INSERT INTO `video_games` (`game_name`, `genre_name`, `release_year`, `publisher
 ('Shin Sangoku Musou 4 Special', 'Action', '2005', 'Tecmo Koei'),
 ('Shin Sangoku Musou 5 Empires', 'Action', '2010', 'Tecmo Koei'),
 ('Shin Sangoku Musou 5 Special', 'Action', '2009', 'Tecmo Koei');
-INSERT INTO `video_games` (`game_name`, `genre_name`, `release_year`, `publisher_name`) VALUES
+INSERT INTO `video_game` (`game_name`, `genre_name`, `release_year`, `publisher_name`) VALUES
 ('Shin Sangoku Musou 6 Special', 'Action', '2011', 'Tecmo Koei'),
 ('Shin Sangoku Musou Online: Kamishou Ranbu', 'Action', '2010', 'Tecmo Koei'),
 ('Shin Sangoku Musou Online: Souten Ranbu', 'Action', '2010', 'Tecmo Koei'),
@@ -2299,7 +2299,7 @@ INSERT INTO `video_games` (`game_name`, `genre_name`, `release_year`, `publisher
 ('Da Capo I & II Plus Situation Portable', 'Adventure', '2010', 'Kadokawa Shoten'),
 ('Daiya no Kuni no Alice: Wonderful Mirror World', 'Adventure', '2013', 'Quinrose'),
 ('Dancing Blade II: Tears of Eden', 'Adventure', '1999', 'Konami Digital Entertainment');
-INSERT INTO `video_games` (`game_name`, `genre_name`, `release_year`, `publisher_name`) VALUES
+INSERT INTO `video_game` (`game_name`, `genre_name`, `release_year`, `publisher_name`) VALUES
 ('Darkened Skye', 'Adventure', '2002', 'TDK Mediactive'),
 ('Date A Live: Arusu Install', 'Adventure', '2014', 'Compile Heart'),
 ('Date A Live: Rine Utopia', 'Adventure', '2013', 'Compile Heart'),
@@ -3015,7 +3015,7 @@ INSERT INTO `video_games` (`game_name`, `genre_name`, `release_year`, `publisher
 ('Taishou Moebius Line Vitable', 'Adventure', '2016', 'dramatic create'),
 ('Tale of a Hero', 'Adventure', '2010', 'Daedalic'),
 ('Tantei Jinguuji Saburo DS: Fuserareta Shinjitsu', 'Adventure', '2009', 'Arc System Works');
-INSERT INTO `video_games` (`game_name`, `genre_name`, `release_year`, `publisher_name`) VALUES
+INSERT INTO `video_game` (`game_name`, `genre_name`, `release_year`, `publisher_name`) VALUES
 ('Tantei Jinguuji Saburo DS: Kienai Kokoro', 'Adventure', '2008', 'Arc System Works'),
 ('Tantei Jinguuji Saburo: Hai to Diamond', 'Adventure', '2009', 'Arc System Works'),
 ('Tantei Opera: Milky Holmes', 'Adventure', '2010', 'Unknown'),
@@ -3734,7 +3734,7 @@ INSERT INTO `video_games` (`game_name`, `genre_name`, `release_year`, `publisher
 ('The King of Fighters \'95', 'Fighting', '1995', 'SNK Playmore'),
 ('The King of Fighters \'95', 'Fighting', '1995', 'SNK'),
 ('The King of Fighters \'95', 'Fighting', '1996', 'Sony Computer Entertainment');
-INSERT INTO `video_games` (`game_name`, `genre_name`, `release_year`, `publisher_name`) VALUES
+INSERT INTO `video_game` (`game_name`, `genre_name`, `release_year`, `publisher_name`) VALUES
 ('The King of Fighters \'95 (CD)', 'Fighting', '1994', 'SNK'),
 ('The King of Fighters \'96', 'Fighting', '1997', 'SNK'),
 ('The King of Fighters \'96', 'Fighting', '1996', 'SNK'),
@@ -4494,7 +4494,7 @@ INSERT INTO `video_games` (`game_name`, `genre_name`, `release_year`, `publisher
 ('Let\'s Draw!', 'Misc', '2008', 'Ubisoft'),
 ('Let\'s Pilates!', 'Misc', '2007', 'Konami Digital Entertainment'),
 ('Let\'s TAP', 'Misc', '2008', 'Sega');
-INSERT INTO `video_games` (`game_name`, `genre_name`, `release_year`, `publisher_name`) VALUES
+INSERT INTO `video_game` (`game_name`, `genre_name`, `release_year`, `publisher_name`) VALUES
 ('Let\'s Yoga!', 'Misc', '2007', 'Konami Digital Entertainment'),
 ('Lips', 'Misc', '2008', 'Microsoft Game Studios'),
 ('Lips: Deutsche Partyknaller', 'Misc', '2009', 'Microsoft Game Studios'),
@@ -5250,7 +5250,7 @@ INSERT INTO `video_games` (`game_name`, `genre_name`, `release_year`, `publisher
 ('Yu-Gi-Oh! World Championship Tournament 2004', 'Misc', '2004', 'Konami Digital Entertainment'),
 ('Yu-Gi-Oh! Worldwide Edition: Stairway to the Destined Duel', 'Misc', '2003', 'Konami Digital Entertainment'),
 ('Yu-Gi-Oh! Zexal World Duel Carnival', 'Misc', '2013', 'Konami Digital Entertainment');
-INSERT INTO `video_games` (`game_name`, `genre_name`, `release_year`, `publisher_name`) VALUES
+INSERT INTO `video_game` (`game_name`, `genre_name`, `release_year`, `publisher_name`) VALUES
 ('Zaidan Houjin Nippon Kanji Nouryoko Kentei Kyoukai Kounin: KanKen DS', 'Misc', '2006', 'Rocket Company'),
 ('Zaidan Houjin Nippon Kanji Nouryoku Kentei Kyoukai Kounin: KanKen DS 2 + Jouyou Kanji Jiten', 'Misc', '2007', 'Rocket Company'),
 ('Zaidan Houjin Nippon Kanji Nouryoku Kentei Kyoukai Kounin: KanKen DS3 Deluxe', 'Misc', '2009', 'Rocket Company'),
@@ -6042,7 +6042,7 @@ INSERT INTO `video_games` (`game_name`, `genre_name`, `release_year`, `publisher
 ('Famicom Mini: Clu Clu Land', 'Puzzle', '2004', 'Nintendo'),
 ('Famicom Mini: Dig Dug', 'Puzzle', '2004', 'Namco Bandai Games'),
 ('Famicom Mini: Wrecking Crew', 'Puzzle', '2004', 'Nintendo');
-INSERT INTO `video_games` (`game_name`, `genre_name`, `release_year`, `publisher_name`) VALUES
+INSERT INTO `video_game` (`game_name`, `genre_name`, `release_year`, `publisher_name`) VALUES
 ('Fantavision', 'Puzzle', '2000', 'Sony Computer Entertainment'),
 ('Feel the Magic XY/XX', 'Puzzle', '2004', 'Sega'),
 ('Fishdom', 'Puzzle', '2011', 'Atari'),
@@ -6890,7 +6890,7 @@ INSERT INTO `video_games` (`game_name`, `genre_name`, `release_year`, `publisher
 ('MX vs. ATV Untamed', 'Racing', '2008', 'THQ'),
 ('MX vs. ATV Untamed', 'Racing', '2007', 'THQ'),
 ('MX vs. ATV: Alive', 'Racing', '2011', 'THQ');
-INSERT INTO `video_games` (`game_name`, `genre_name`, `release_year`, `publisher_name`) VALUES
+INSERT INTO `video_game` (`game_name`, `genre_name`, `release_year`, `publisher_name`) VALUES
 ('MX World Tour Featuring Jamie Little', 'Racing', '2005', 'Play It'),
 ('MX World Tour Featuring Jamie Little', 'Racing', '2005', 'Crave Entertainment'),
 ('MXGP 2', 'Racing', '2016', 'Milestone S.r.l.'),
@@ -7656,7 +7656,7 @@ INSERT INTO `video_games` (`game_name`, `genre_name`, `release_year`, `publisher
 ('Final Fantasy Chronicles', 'Role-Playing', '2001', 'Square'),
 ('Final Fantasy Collection', 'Role-Playing', '1999', 'Square'),
 ('Final Fantasy Crystal Chronicles: Echoes of Time', 'Role-Playing', '2009', 'Square Enix');
-INSERT INTO `video_games` (`game_name`, `genre_name`, `release_year`, `publisher_name`) VALUES
+INSERT INTO `video_game` (`game_name`, `genre_name`, `release_year`, `publisher_name`) VALUES
 ('Final Fantasy Crystal Chronicles: Ring of Fates', 'Role-Playing', '2007', 'Square Enix'),
 ('Final Fantasy Explorers', 'Role-Playing', '2014', 'Square Enix'),
 ('Final Fantasy Fables: Chocobo\'s Dungeon', 'Role-Playing', '2007', 'Square Enix'),
@@ -8368,7 +8368,7 @@ INSERT INTO `video_games` (`game_name`, `genre_name`, `release_year`, `publisher
 ('Tail of the Sun', 'Role-Playing', '1996', 'ArtDink'),
 ('Tales of Berseria', 'Role-Playing', '2016', 'Namco Bandai Games'),
 ('Tales of Destiny', 'Role-Playing', '2006', 'Namco Bandai Games');
-INSERT INTO `video_games` (`game_name`, `genre_name`, `release_year`, `publisher_name`) VALUES
+INSERT INTO `video_game` (`game_name`, `genre_name`, `release_year`, `publisher_name`) VALUES
 ('Tales of Destiny', 'Role-Playing', '1997', 'Namco Bandai Games'),
 ('Tales of Destiny 2', 'Role-Playing', '2002', 'Namco Bandai Games'),
 ('Tales of Destiny 2', 'Role-Playing', '2007', 'Namco Bandai Games'),
@@ -9143,7 +9143,7 @@ INSERT INTO `video_games` (`game_name`, `genre_name`, `release_year`, `publisher
 ('Project Sylpheed: Arc of Deception', 'Shooter', '2006', 'Microsoft Game Studios'),
 ('Project: Horned Owl', 'Shooter', '1995', 'Sony Computer Entertainment'),
 ('Psi-Ops: The Mindgate Conspiracy', 'Shooter', '2004', 'Midway Games');
-INSERT INTO `video_games` (`game_name`, `genre_name`, `release_year`, `publisher_name`) VALUES
+INSERT INTO `video_game` (`game_name`, `genre_name`, `release_year`, `publisher_name`) VALUES
 ('Quake', 'Shooter', '1998', 'GT Interactive'),
 ('Quake 4', 'Shooter', '2005', 'Activision'),
 ('Quake II', 'Shooter', '1999', 'Activision'),
@@ -9894,7 +9894,7 @@ INSERT INTO `video_games` (`game_name`, `genre_name`, `release_year`, `publisher
 ('Mobile Suit Gundam: Encounters in Space', 'Simulation', '2003', 'Namco Bandai Games'),
 ('Mobile Suit Gundam: Federation vs. Zeon', 'Simulation', '2001', 'Atari'),
 ('Mobile Suit Gundam: Journey to Jaburo', 'Simulation', '2000', 'Namco Bandai Games');
-INSERT INTO `video_games` (`game_name`, `genre_name`, `release_year`, `publisher_name`) VALUES
+INSERT INTO `video_game` (`game_name`, `genre_name`, `release_year`, `publisher_name`) VALUES
 ('Mobile Suit Gundam: MS Sensen 0079', 'Simulation', '2007', 'Namco Bandai Games'),
 ('Mobile Suit Gundam: Zeonic Front', 'Simulation', '2001', 'Namco Bandai Games'),
 ('Momotarou Dentetsu 7', 'Simulation', '1997', 'Hudson Entertainment'),
@@ -10686,7 +10686,7 @@ INSERT INTO `video_games` (`game_name`, `genre_name`, `release_year`, `publisher
 ('Hot Shots Golf: Open Tee 2', 'Sports', '2007', 'Sony Computer Entertainment'),
 ('Hot Shots Golf: Out of Bounds', 'Sports', '2007', 'Sony Computer Entertainment'),
 ('Hot Shots Golf: World Invitational', 'Sports', '2012', 'Sony Computer Entertainment');
-INSERT INTO `video_games` (`game_name`, `genre_name`, `release_year`, `publisher_name`) VALUES
+INSERT INTO `video_game` (`game_name`, `genre_name`, `release_year`, `publisher_name`) VALUES
 ('Hot Shots Golf: World Invitational', 'Sports', '2011', 'Sony Computer Entertainment'),
 ('Hot Shots Tennis', 'Sports', '2006', 'Sony Computer Entertainment'),
 ('Hot Shots Tennis: Get a Grip', 'Sports', '2010', 'Sony Computer Entertainment'),
@@ -11455,7 +11455,7 @@ INSERT INTO `video_games` (`game_name`, `genre_name`, `release_year`, `publisher
 ('Super Dodgeball Brawlers', 'Sports', '2008', 'Arc System Works'),
 ('Super Dodgeball Brawlers (jp sales)', 'Sports', '2008', 'Arc System Works'),
 ('Super Famista 3', 'Sports', '1994', 'Namco Bandai Games');
-INSERT INTO `video_games` (`game_name`, `genre_name`, `release_year`, `publisher_name`) VALUES
+INSERT INTO `video_game` (`game_name`, `genre_name`, `release_year`, `publisher_name`) VALUES
 ('Super Famista 4', 'Sports', '1995', 'Namco Bandai Games'),
 ('Super Famista 5', 'Sports', '1996', 'Namco Bandai Games'),
 ('Super Football', 'Sports', '1987', 'Atari'),
@@ -12223,7 +12223,7 @@ INSERT INTO `video_games` (`game_name`, `genre_name`, `release_year`, `publisher
 ('Total War Attila: Tyrants & Kings', 'Strategy', '2016', 'Koch Media'),
 ('Total War: Attila', 'Strategy', '2015', 'Sega'),
 ('Total War: Rome II', 'Strategy', '2013', 'Sega');
-INSERT INTO `video_games` (`game_name`, `genre_name`, `release_year`, `publisher_name`) VALUES
+INSERT INTO `video_game` (`game_name`, `genre_name`, `release_year`, `publisher_name`) VALUES
 ('Total War: Shogun 2', 'Strategy', '2011', 'Sega'),
 ('Total War: Shogun 2 - Fall of the Samurai', 'Strategy', '2012', 'Sega'),
 ('Total War: WARHAMMER', 'Strategy', '2016', 'Sega'),
