@@ -5,7 +5,7 @@ CREATE DATABASE IF NOT EXISTS `video_game`;
 /*change into db context*/
 USE `video_game`;
 
-CREATE USER 'videogame_user'@'localhost' IDENTIFIED BY 'passw0rd';
+CREATE USER IF NOT EXISTS 'videogame_user'@'localhost' IDENTIFIED BY 'passw0rd';
 
 GRANT ALL PRIVILEGES ON * . * TO 'videogame_user'@'localhost';
 

@@ -5,7 +5,7 @@ CREATE DATABASE IF NOT EXISTS `contacts`;
 /*change into db context*/
 USE `contacts`;
 
-CREATE USER 'contacts_user'@'localhost' IDENTIFIED BY 'passw0rd';
+CREATE USER IF NOT EXISTS 'contacts_user'@'localhost' IDENTIFIED BY 'passw0rd';
 
 GRANT ALL PRIVILEGES ON * . * TO 'contacts_user'@'localhost';
 
