@@ -40,11 +40,9 @@ function addNewContact() {
         //
         alert("Both fields are required.")
     } else {
-        var rndInt = Math.floor(Math.random() * 1000) + 1;//hack, just to get a random id for a new entry
 
         //create the data sructure to send to the server
         var json_data = {
-            "id": rndInt,
             "name" : name,
             "email" : email
         };

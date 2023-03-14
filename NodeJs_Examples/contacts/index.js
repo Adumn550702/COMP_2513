@@ -21,7 +21,7 @@ app.get('/api/contacts', (req, res) => {
 })
 
 app.get('/api/contacts/:id', (req, res) => {
-    console.log("received GET request w/IO",req.params);
+    console.log("received GET request w/ID",req.params);
 
     //send the specific record back
     const item = contacts.find(itm => itm.id == req.params.id);
