@@ -1,2 +1,6 @@
 node_modules/
 Python_Examples/.venv/
+MongoDb_Examples/package-lock.json
+Assignment7/.env copy
+NodeJs_with_MongoDb_Examples/.env copy
+NodeJs_with_MySQL_Examples/.env copy

@@ -1,0 +1,131 @@
+{
+	"info": {
+		"_postman_id": "da942563-1007-4f6c-9280-40f342998ef6",
+		"name": "COMP 2513 NodeJs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4337274"
+	},
+	"item": [
+		{
+			"name": "GET request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/contacts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"contacts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET by ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/contacts/641101fd838f8942c1f9ea58",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"contacts",
+						"641101fd838f8942c1f9ea58"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"first_name\": \"Jean-Luc\",\r\n    \"last_name\": \"Picard\",\r\n    \"email\": \"captain@enterprise.net\",\r\n    \"country\": \"Canada\",\r\n    \"vip\": false\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/contacts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"contacts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"first_name\": \"Jean-Luc\",\r\n    \"last_name\": \"Picard\",\r\n    \"email\": \"captain@enterprise.net\",\r\n    \"country\": \"Starfleet\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/contacts/641101fd838f8942c1f9ea58",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"contacts",
+						"641101fd838f8942c1f9ea58"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/contacts/641101fd838f8942c1f9ea58",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"contacts",
+						"641101fd838f8942c1f9ea58"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
