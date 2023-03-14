@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from flask import Flask, jsonify
 from flask_mysqldb import MySQL
 
 #call http://localhost:5000/contacts
@@ -14,8 +14,6 @@ mysql = MySQL(app)
 
 @app.route('/contacts')
 def form():
-    #name = request.form['name']
-
     query_string = "SELECT * FROM contact"
     cur = mysql.connection.cursor()
     cur.execute(query_string)

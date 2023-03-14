@@ -40,4 +40,4 @@ app.get('/api/contacts/:id', (req, res) => {
 
 app.listen(3333);
 
-console.log('Listening on localhost:3333');
+console.log('Listening on localhost:3333, try http://localhost:3333/api/contacts');
