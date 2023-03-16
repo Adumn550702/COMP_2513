@@ -23,6 +23,7 @@ con.connect(function(err) {
 //all records
 app.get('/api/contacts', (req, res) => {
   var sql = "SELECT * FROM contact;"
+  console.log("server is executing: " + sql);
   con.query(sql, function (err, result) {
     if (err) throw err;
     res.json(result);
@@ -32,6 +33,7 @@ app.get('/api/contacts', (req, res) => {
 //specific record
 app.get('/api/contacts/:id', (req, res) => {
   var sql = "SELECT * FROM contact WHERE id = " + req.params.id + ";"
+  console.log("server is executing: " + sql);
   con.query(sql, function (err, result) {
     if (err) throw err;
     res.json(result);
