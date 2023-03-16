@@ -1,4 +1,5 @@
 //based on: https://github.com/mongodb-developer/mongodb-express-rest-api-example/
+//reference (ECMAScript modules): https://nodejs.org/api/esm.html#modules-ecmascript-modules
 import express from "express";
 import cors from "cors";
 import "./loadEnvironment.mjs";
